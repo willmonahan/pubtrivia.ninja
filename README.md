@@ -1,0 +1,2 @@
+# pubtrivia.ninja
+pubtrivia.ninja
