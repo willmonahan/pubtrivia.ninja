@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-favicon">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <rect width="32" height="32" fill="#fff"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="32" height="32" fill="#ffaf00"/>
+    <text id="PT" transform="translate(16 24)" fill="#b34c01" font-size="23" font-family="Verlag-Black, Verlag" font-weight="800"><tspan x="-15.019" y="0">PT</tspan></text>
+  </g>
+</svg>
