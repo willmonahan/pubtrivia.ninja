@@ -42,8 +42,13 @@ body {
   justify-content: space-around;
 }
 
+.form-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .link {
-  transition: .25s;
+  transition: box-shadow .25s;
   display: block;
   color: #FFAF00;
   background-color: #B34C01;

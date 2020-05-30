@@ -13,17 +13,19 @@
 
   <title>Pub Trivia</title>
   <link rel="stylesheet" href="https://use.typekit.net/cvc7ept.css">
-  <link href="style.css" rel="stylesheet">
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/static/css/main.css" rel="stylesheet">
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script async src="main.js"></script>
+  <script async src="/static/js/homepage.js"></script>
 </head>
 
 <body>
-  <div class="header">
-    <img src="images/header.svg" alt="pub trivia" id="header">
-  </div>
+  <a href='/'>
+    <div class="header">
+      <img src="/static/images/header.svg" alt="pub trivia" id="header">
+    </div>
+  </a>
   <div class="video">
     <iframe class="video-frame" width="560" height="315" src="https://www.youtube.com/embed/fI8nQpHT_oI" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,8 +34,7 @@
   </div>
   <div class="buttons">
     <a class="link" href="https://meet.google.com/ump-vrnm-uvo" rel="nofollow noopener">VIRTUAL HAPPY HOUR - 7 PM</a>
-    <a class="link" href="https://docs.google.com/document/d/15BkfjUdH-J5Jy_qPA3gYr3l9bdta8rHTqCZt2kLOd_M/edit"
-      rel="nofollow noopener">THIS WEEK'S FORMS</a>
+    <a class="link" href="/links" rel="nofollow noopener">THIS WEEK'S FORMS</a>
     <a class="link" href="https://www.paypal.me/DakotaDeady" rel="nofollow noopener">DONATE VIA PAYPAL</a>
   </div>
 </body>
