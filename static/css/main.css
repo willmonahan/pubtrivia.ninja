@@ -69,6 +69,7 @@ body {
 @media screen and (max-width: 900px) {
   .header img {
     width: 400px;
+    max-width: 100%;
   }
   .video {
     display: flex;
@@ -95,18 +96,10 @@ body {
   }
 
   @media screen and (max-width: 600px) {
-    .header img {
-      width: 400px;
-    }
     .video {
       display: flex;
       flex-direction: column;
       align-content: space-around;
-    }
-  
-    .buttons {
-        display: flex;
-        flex-direction: column;
     }
   
     .link {
