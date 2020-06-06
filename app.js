@@ -49,7 +49,11 @@ app.post('/updatelinks', (req, res) => {
   links = { ...links, ...req.body };
   io.emit('links', links); // broadcast the new links out to ALL io clients
   res.send('Sucessfully updated links.');
-})
+});
+
+app.get('/showmethemoney', (req, res) => {
+  res.redirect('https://drive.google.com/drive/folders/1xY1l2bO-zYLfVOjLYJVBp9BWgUYPbX2T?usp=sharing');
+});
 
 server.listen(PORT, () => {
   console.log(`Listening at http://${isProd ? require('os').hostname() : 'localhost'}:${PORT}`);
