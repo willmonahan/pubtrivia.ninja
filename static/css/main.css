@@ -1,6 +1,22 @@
 :root {
-  --primary-color: WHITE;
-  --secondary-color: #B40000;
+  --primary-color: 251,97,142;
+  --secondary-color: 61,25,94;
+}
+
+#Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
+  fill: rgb(var(--secondary-color));
+}
+
+#Banner_Text_Main, #Banner_Text_Secondary {
+  fill: rgb(var(--primary-color));
+}
+
+#Banner_Left, #Banner_Right {
+  fill: rgba(var(--secondary-color), 0.84);
+}
+
+#Cutout_Left, #Cutout_Right  {
+  fill: rgba(var(--secondary-color), 0.68);
 }
 
 * {
@@ -8,8 +24,8 @@
   font-family: semplicitapro, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: rgb(var(--secondary-color));
+  background-color: rgb(var(--primary-color));
   padding: 0;
   margin: 0;
 }
@@ -27,7 +43,7 @@ body {
   align-items: center;
 }
 
-.header img {
+.header svg {
   margin: 10%;
 }
 
@@ -55,8 +71,8 @@ body {
 .link {
   transition: box-shadow .25s;
   display: block;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: rgb(var(--primary-color));
+  background-color: rgb(var(--secondary-color));
   text-decoration: none;
   font-family: semplicitapro,sans-serif;
   text-align: center;
@@ -72,7 +88,7 @@ body {
 
 
 @media screen and (max-width: 900px) {
-  .header img {
+  .header svg {
     width: 400px;
     max-width: 100%;
   }
@@ -106,7 +122,7 @@ body {
       flex-direction: column;
       align-content: space-around;
     }
-  
+
     .link {
       width: 300px;
       margin: 10;
