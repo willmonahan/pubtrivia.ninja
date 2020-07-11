@@ -1,6 +1,6 @@
 :root {
-  --primary-color: 251,97,142;
-  --secondary-color: 61,25,94;
+  --primary-color: 1,167,179;
+  --secondary-color: 0,36,91;
 }
 
 #Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
@@ -16,7 +16,7 @@
 }
 
 #Cutout_Left, #Cutout_Right  {
-  fill: rgba(var(--secondary-color), 0.68);
+  fill: rgba(var(--secondary-color), 0.58);
 }
 
 * {
