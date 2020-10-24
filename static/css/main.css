@@ -1,6 +1,6 @@
 :root {
-  --primary-color: 85, 0, 200;
-  --secondary-color: 0, 255, 60;
+  --primary-color: 232, 124, 0;
+  --secondary-color: 0, 0, 0;
 }
 
 #Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
