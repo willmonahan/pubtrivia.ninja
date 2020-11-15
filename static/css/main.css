@@ -1,8 +1,3 @@
-:root {
-  --bg-color: 0, 36, 91;
-  --accent-color: 1, 167, 179;
-}
-
 #Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
   fill: rgb(var(--accent-color));
 }
