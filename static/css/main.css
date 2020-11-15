@@ -1,22 +1,22 @@
 :root {
-  --primary-color: 232, 124, 0;
-  --secondary-color: 0, 0, 0;
+  --bg-color: 0, 36, 91;
+  --accent-color: 1, 167, 179;
 }
 
 #Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
-  fill: rgb(var(--secondary-color));
+  fill: rgb(var(--accent-color));
 }
 
 #Banner_Text_Main, #Banner_Text_Secondary {
-  fill: rgb(var(--primary-color));
+  fill: rgb(var(--bg-color));
 }
 
 #Banner_Left, #Banner_Right {
-  fill: rgba(var(--secondary-color), 0.84);
+  fill: rgba(var(--accent-color), 0.84);
 }
 
 #Cutout_Left, #Cutout_Right  {
-  fill: rgba(var(--secondary-color), 0.58);
+  fill: rgba(var(--accent-color), 0.58);
 }
 
 * {
@@ -24,8 +24,8 @@
   font-family: semplicitapro, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: rgb(var(--secondary-color));
-  background-color: rgb(var(--primary-color));
+  color: rgb(var(--accent-color));
+  background-color: rgb(var(--bg-color));
   padding: 0;
   margin: 0;
 }
@@ -71,8 +71,8 @@ body {
 .link {
   transition: box-shadow .25s;
   display: block;
-  color: rgb(var(--primary-color));
-  background-color: rgb(var(--secondary-color));
+  color: rgb(var(--bg-color));
+  background-color: rgb(var(--accent-color));
   text-decoration: none;
   font-family: semplicitapro,sans-serif;
   text-align: center;
