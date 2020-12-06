@@ -1,9 +1,16 @@
+main {
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:-1;
+}
+
 #Banner_Main, #Banner_Left, #Banner_Right, #Cutout_Left, #Cutout_Right {
   fill: rgb(var(--accent-color));
 }
 
 #Banner_Text_Main, #Banner_Text_Secondary {
-  fill: rgb(var(--bg-color));
+  fill: rgba(var(--bg-color));
 }
 
 #Banner_Left, #Banner_Right {
@@ -20,7 +27,7 @@
   font-weight: 300;
   font-style: normal;
   color: rgb(var(--accent-color));
-  background-color: rgb(var(--bg-color));
+  /* background-color: rgb(var(--bg-color)); */
   padding: 0;
   margin: 0;
 }
@@ -30,6 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(var(--bg-color));
 }
 
 .header {
