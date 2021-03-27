@@ -9,7 +9,7 @@ const shrink = 0.01;
 let particles;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, displayHeight);
   background(0,0,0);
   ellipseMode(CENTER);
   noStroke();
@@ -48,7 +48,7 @@ function handleInput() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, displayHeight);
 }
 
 function getInputs() {
