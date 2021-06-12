@@ -55,7 +55,7 @@ app.get('/showmethemoney', (req, res) => {
   res.redirect('https://drive.google.com/drive/folders/1xY1l2bO-zYLfVOjLYJVBp9BWgUYPbX2T?usp=sharing');
 });
 
-app.get('/picture', (req, res) => {
+app.get('/pictures?-?(round)?', (req, res) => {
   res.redirect('/static/images/picture_round_finale.png');
 })
 
