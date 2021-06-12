@@ -55,6 +55,10 @@ app.get('/showmethemoney', (req, res) => {
   res.redirect('https://drive.google.com/drive/folders/1xY1l2bO-zYLfVOjLYJVBp9BWgUYPbX2T?usp=sharing');
 });
 
+app.get('/picture', (req, res) => {
+  res.redirect('/static/images/picture_round_finale.png');
+})
+
 server.listen(PORT, () => {
   console.log(`Listening at http://${isProd ? require('os').hostname() : 'localhost'}:${PORT}`);
 });
